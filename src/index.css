@@ -1,0 +1,63 @@
+:root {
+  /* --navy: #0a192f; */
+  --navy: rgb(0 5 16 / 1);
+  --lightest-navy: #ccd6f6;
+  --light-navy: #8892b0;
+  --green: #64ffda;
+  --light-green: rgba(100, 255, 218, 0.1);
+  /* --Yankees-Blue: #112240; */
+  --Yankees-Blue: #181e29;
+  --light-Yankees-Blue: #a8b2d1;
+  --navy-shadow: rgba(2, 12, 27, 0.7);
+  --lato: "Lato", sans-serif;
+  --ptfont: "PT Sans", sans-serif;
+  --filter: none;
+}
+::selection {
+  /* background-color: #233554; */
+  background-color: var(--lightest-navy);
+  color: var(--navy);
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background: var(--navy);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--light-navy);
+  -webkit-border-radius: 1ex;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+.page-load {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--navy);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-color: var(--navy);
+  color: var(--light-navy);
+  overflow-x: hidden;
+  transition: 0.6s background-color ease;
+}
+
+body.light {
+  --navy: #eeeeee;
+  --lightest-navy: #222831;
+  --light-navy: #393e46;
+  --green: black;
+  --Yankees-Blue: white;
+  --light-Yankees-Blue: rgb(52, 42, 42);
+  --navy-shadow: #393e46;
+  --filter: invert(1);
+}
+body.res-nav-active {
+  overflow: hidden;
+}
+.none {
+  display: none;
+}
+

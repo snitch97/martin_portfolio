@@ -1,0 +1,27 @@
+.footer {
+  /* position: absolute; */
+  /* position: absolute; */
+  bottom: 39px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 100%;
+  height: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer p {
+  color: var(--light-navy);
+  font-size: 14px;
+  margin: 0;
+  padding: 3px 0;
+}
+.footer p a {
+  color: var(--lightest-navy);
+}
+@media only screen and (max-width: 768px) {
+  .footer p {
+    font-size: 12px;
+  }
+}

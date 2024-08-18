@@ -1,0 +1,156 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.profile {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  height: 100vh;
+  /* gap: 50px; */
+  padding: 0 10% 0;
+}
+
+.profile .profile-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  animation: profiletext 2000ms;
+}
+
+.profile .profile-text h1 {
+  font-family: "Lato", sans-serif;
+  color: var(--lightest-navy);
+  margin: 5px 0 0 0;
+  font-size: clamp(40px, 8vw, 50px);
+  animation: profiletitle 1000ms;
+}
+
+.profile .profile-text p{
+  margin: 0px 0px 5px 4px;
+  font-size:large;
+  color: var(--lightest-navy);
+  animation: profilesubtitle 1000ms;
+}
+
+.profile .profile-text p {
+  font-family: "PT Sans", sans-serif;
+  margin: 20px 0px 20px 0px;
+}
+
+.profile .profile-text button {
+  background-color: transparent;
+  border: 1px solid var(--green);
+  color: var(--lightest-navy);
+  margin: 20px 0 0 0;
+  width: 190px;
+  height: 50px;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+
+.profile .profile-text button:hover {
+  background-color: rgba(168, 168, 255, 0.057);
+}
+
+@keyframes profiletext {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes profiletitle {
+  0% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes profilesubtitle {
+  0% {
+    transform: translateY(40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    gap: 0px;
+    justify-content: center;
+    padding: 0 5% 0;
+    height: 70vh;
+  }
+  .profile .profile-text h1 {
+    font-size: 25px;
+  }
+  .profile .profile-text p {
+    font-size: 15px;
+    margin: 10px 0px 10px 0px;
+  }
+  .profile .profile-text p:first-child {
+    margin: 0px 0px 2px 4px;
+  }
+  .profile .profile-text a svg {
+    width: 20px;
+    height: 20px;
+  }
+  .profile .profile-text button {
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    margin: 10px 0;
+  }
+  .profile .profile-img img {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .profile {
+    flex-direction: column-reverse;
+    padding: 38px 5% 0;
+    height: 50vh;
+    margin-top: 50px;
+  }
+  .profile .profile-text {
+    text-align: left;
+    padding: 15px 0 0 0;
+    width: 90%;
+    gap: 5px;
+  }
+  .profile .profile-text h1 {
+    font-size: 30px;
+  }
+  .profile .profile-text p {
+    font-size: 15px;
+  }
+  .profile .profile-text button {
+    margin: 10px 0 0 0;
+    height: 40px;
+    width: 140px;
+  }
+}
