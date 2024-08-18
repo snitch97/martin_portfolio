@@ -1,12 +1,7 @@
 <div align="center">
-<h1>Jainex.me</h1>
-<a href="https://Jainex.me/">Jainex.me</a> built with React.js and hosted with <a href="https://vercel.com/">vercel</a><br/>
+<h1>Suzuki Iwao.me</h1>
+<a href="https://Jainex.me/">Suzuki Iwao.me</a> built with React.js and hosted with <a href="https://vercel.com/">vercel</a><br/>
 </div>
-<br>
-<br>
-
-![screen-shot](https://user-images.githubusercontent.com/81921291/215495191-65ec72a8-ccde-4713-bafe-df283ac299e7.png)
-
 <br>
 
 ## 🚀 Open-Source and Available for Use
