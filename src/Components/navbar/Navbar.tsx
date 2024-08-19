@@ -22,8 +22,6 @@ const Navbar: React.FC<NavbarProps> = ({
     document.body.classList.toggle("scroll", window.scrollY > 130);
   };
 
-  
-
   return (
     <nav className="navbar nav">
       <ul>

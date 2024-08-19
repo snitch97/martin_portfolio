@@ -81,13 +81,11 @@
 .container-content .Project-desc {
   background-color: var(--Yankees-Blue);
   color: var(--light-Yankees-Blue);
-  padding: 6px 30px;
-  margin: 10px 0;
   box-shadow: 0 10px 30px -15px var(--navy-shadow);
   width: 100%;
   font-size: 16px;
   font-family: var(--ptfont);
-  border-radius: 3px;
+  border-radius: 10px;
 }
 .container-content .project-tech {
   list-style: none;

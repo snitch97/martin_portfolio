@@ -179,13 +179,4 @@
     background-color: rgba(0, 0, 0, 0.5);
     transition: 0.2s ease-in;
   }
-  .mobile-light-mode{
-    padding-top: 4px;
-    height: 2rem;
-    background-color: transparent;
-    border: none;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
 }

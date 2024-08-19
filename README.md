@@ -1,6 +1,5 @@
 <div align="center">
 <h1>Suzuki Iwao.me</h1>
-<a href="https://Jainex.me/">Suzuki Iwao.me</a> built with React.js and hosted with <a href="https://vercel.com/">vercel</a><br/>
 </div>
 <br>
 

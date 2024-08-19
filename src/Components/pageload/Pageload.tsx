@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./Pageload.css";
 import $ from "jquery";
 
-function Pageload() {
+const Pageload = () => {
   useEffect(() => {
     $(window).on("load", function () {
       setTimeout(function () {
@@ -13,8 +13,8 @@ function Pageload() {
 
   return (
     <div className="page-load">
-      <h1>SUZUKI IWAO</h1>
-    </div>
+      <h1>Suzuki Iwao</h1>
+    </div>    
   );
 }
 
