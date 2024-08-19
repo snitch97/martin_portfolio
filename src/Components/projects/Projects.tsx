@@ -24,8 +24,10 @@ function Projects() {
           <div className="project-overline">Featured Project</div>
           <h3 className="project-title">Airbnb</h3>
           <div className="Project-desc">
-            <p style={{padding: "0 10px 0 15px"}}>
-              asda
+            <p style={{ padding: "0 10px 0 15px" }}>
+              Airbnb, Inc. is an American company operating an online
+              marketplace for short-and-long-term homestays and experiences in
+              various countries and regions.
             </p>
           </div>
           <ul className="project-tech">
@@ -57,14 +59,15 @@ function Projects() {
           </div>
         </div>
       </div>
-   
+
       <div className="project-container left-container">
         <div className="container-content">
           <div className="project-overline">Featured Project</div>
           <h3 className="project-title">Food Order</h3>
           <div className="Project-desc">
             <p>
-              asffsd
+              This is a meal ordering site for a restaurant. I was in charge of
+              web design and homepage creation here.
             </p>
           </div>
           <ul className="project-tech">
